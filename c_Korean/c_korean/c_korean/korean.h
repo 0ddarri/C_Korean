@@ -1,68 +1,76 @@
 #pragma once
 
-#pragma region ÀÌ°ÍÀº ÇÑ±¹¾î ÀçÁ¤ÀÇ ¸ğÀ½Áı
+#pragma region ì´ê²ƒì€ í•œêµ­ì–´ ì¬ì •ì˜ ëª¨ìŒì§‘
 
 #pragma endregion
 
-//#define Æ÷ÇÔ #include
-//#defineÀº ÀçÁ¤ÀÇ ¾ÈµÇ³×
+//#define í¬í•¨ #include
+//#defineì€ ì¬ì •ì˜ ì•ˆë˜ë„¤
 
-#define ÀÔÃâ·Â¸ğÀ½ <stdio.h>
-#define ½Ã°£¸ğÀ½ <time.h>
-#define Ã¢¸ğÀ½ <Windows.h>
+#define ì…ì¶œë ¥ëª¨ìŒ <stdio.h>
+#define ì‹œê°„ëª¨ìŒ <time.h>
+#define ì°½ëª¨ìŒ <Windows.h>
+#define ëª©ë¡ëª¨ìŒ <list>
 
-#define Ùí NULL
+#define ç„¡ NULL
 
-#define Ãâ·Â printf
-#define ÀÔ·Â scanf
-#define _ÀÔ·Â scanf_s
+#define ì¶œë ¥ printf
+#define ì…ë ¥ scanf
+#define _ì…ë ¥ scanf_s
 
-#define ¾çÀÇ unsigned
+#define ì–‘ì˜ unsigned
 
-#define Á¤¼ö int
-#define ½Ç¼ö float
-#define ÆÇ´Ü bool
-#define ¹®ÀÚ char
-#define °øÇã void
-#define ÀÚµ¿ auto
+#define ì •ìˆ˜ int
+#define ì‘ì€ì •ìˆ˜ short
+#define í°ì •ìˆ˜ long
+#define ë”í°ì •ìˆ˜ long long
+#define ì‹¤ìˆ˜ float
+#define í°ì‹¤ìˆ˜ double
+#define íŒë‹¨ bool
+#define ë¬¸ì char
+#define ê³µí—ˆ void
+#define ìë™ auto
 
-#define Âü true
-#define °ÅÁş false
+#define ì°¸ true
+#define ê±°ì§“ false
 
-#define ¹İÈ¯ return
-#define Å»Ãâ break
-#define °è¼Ó continue
+#define ë°˜í™˜ return
+#define íƒˆì¶œ break
+#define ê³„ì† continue
 
-#define ¸¸¾à if
-#define ¾Æ´Ï¸é else if
-#define °á±¹ else
+#define ë§Œì•½ if
+#define ì•„ë‹ˆë©´ else if
+#define ê²°êµ­ else
 
-#define ½ÇÇà do
-#define Á¶°Ç¹İº¹ while	
-#define Áõ°¨¹İº¹ for
+#define ì‹¤í–‰ do
+#define ì¡°ê±´ë°˜ë³µ while
+#define ì¦ê°ë°˜ë³µ for
 
-#define »óÅÂÁ¶°Ç switch
-#define »óÅÂ case
-#define ³ª¸ÓÁö»óÅÂ default
+#define ìƒíƒœì¡°ê±´ switch
+#define ìƒíƒœ case
+#define ë‚˜ë¨¸ì§€ìƒíƒœ default
 
-#define ±¸Á¶ struct
-#define ÁıÇÕ class
+#define êµ¬ì¡° struct
+#define ì§‘í•© class
 
-#define °¡»ó virtual
+#define ê°€ìƒ virtual
 
-#define °øÀû public
-#define »çÀû private
+#define ê³µì  public
+#define ì‚¬ì  private
 
-#define Á¤Àû static
+#define ì •ì  static
 
-#define ¹ÙÀÌÆ®_Å©±â sizeof
+#define ë°”ì´íŠ¸í¬ê¸° sizeof
 
-#define ÀÌ¸§°ø°£ namespace
+#define ì‚¬ìš© using
+#define ì´ë¦„ê³µê°„ namespace
 
-#define ½Ãµµ try
-#define Àâ´Ù catch
+#define ì‹œë„ try
+#define ì¡ë‹¤ catch
 
-#define ½Ãµå¼³Á¤ srand
-#define ¹«ÀÛÀ§ rand
+#define ì‹œë“œì„¤ì • srand
+#define ë¬´ì‘ìœ„ rand
 
-#define ½Ã°£ time
+#define ì‹œê°„ time
+
+#define ëª©ë¡ list
